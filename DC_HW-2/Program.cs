@@ -37,12 +37,25 @@ namespace DC_HW_2
             Console.WriteLine();
         }
 
+        static string PC_Data()
+        {
+            string returnValue = "";
+            string[] drivesNames = Environment.GetLogicalDrives();
+
+            for (int x = 0; x < drivesNames.Length; ++x)
+            {
+                returnValue += $"Drive{x + 1}: {drivesNames[x]}\n";
+            }
+            
+            return returnValue;
+        }
+
         
 
         /// <summary>
         /// By Harbor
         /// </summary>
-        static void VarintFirst()
+        static void VariantFirst()
         {
             // Коллекция типов
             Type[] a = AppDomain.CurrentDomain.GetAssemblies().SelectMany(t => t.GetTypes()).Where(t => t.IsClass).ToArray();
@@ -122,7 +135,7 @@ namespace DC_HW_2
         /// <summary>
         /// By LeakyRus
         /// </summary>
-        static void VarintSecond()
+        static void VariantSecond()
         {
             var types = AppDomain.CurrentDomain.GetAssemblies().SelectMany(t => t.GetTypes()).ToList();
 
@@ -170,9 +183,33 @@ namespace DC_HW_2
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            VarintFirst();
-            VarintSecond();
+            while (true)
+            {
+                char input =  Console.ReadKey().KeyChar;
+                Console.Clear();
+                switch (input)
+                {
+                    case 'i':
+                        {
+                            VariantFirst(); break;
 
+                        }
+                    case 'j': 
+                        {
+                            VariantSecond(); break;
+                        }
+                        
+                    case 'k': 
+                        {
+                            Console.WriteLine(PC_Data()); break;
+                        }
+                    case (char)27: { return; }
+                    default: { Console.WriteLine("Введите i j k для взаимодействия, esc - для выхода"); } break;
+                }
+
+                
+
+            }
 
         }
     }

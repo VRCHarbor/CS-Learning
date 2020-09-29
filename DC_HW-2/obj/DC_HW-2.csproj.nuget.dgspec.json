@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Mega\\C#\\Projects\\DC_HW-2\\DC_HW-2.csproj": {}
+    "D:\\Mega\\C#\\GitBranches\\CS-Learning\\DC_HW-2\\DC_HW-2.csproj": {}
   },
   "projects": {
-    "D:\\Mega\\C#\\Projects\\DC_HW-2\\DC_HW-2.csproj": {
+    "D:\\Mega\\C#\\GitBranches\\CS-Learning\\DC_HW-2\\DC_HW-2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mega\\C#\\Projects\\DC_HW-2\\DC_HW-2.csproj",
+        "projectUniqueName": "D:\\Mega\\C#\\GitBranches\\CS-Learning\\DC_HW-2\\DC_HW-2.csproj",
         "projectName": "DC_HW-2",
-        "projectPath": "D:\\Mega\\C#\\Projects\\DC_HW-2\\DC_HW-2.csproj",
+        "projectPath": "D:\\Mega\\C#\\GitBranches\\CS-Learning\\DC_HW-2\\DC_HW-2.csproj",
         "packagesPath": "C:\\Users\\Harbor\\.nuget\\packages\\",
-        "outputPath": "D:\\Mega\\C#\\Projects\\DC_HW-2\\obj\\",
+        "outputPath": "D:\\Mega\\C#\\GitBranches\\CS-Learning\\DC_HW-2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Harbor\\AppData\\Roaming\\NuGet\\NuGet.Config",

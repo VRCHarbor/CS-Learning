@@ -1,0 +1,15 @@
+D:\Mega\C#\GitBranches\CS-Learning\DC_HW-2\bin\Debug\netcoreapp3.0\DC_HW-2.exe
+D:\Mega\C#\GitBranches\CS-Learning\DC_HW-2\bin\Debug\netcoreapp3.0\DC_HW-2.deps.json
+D:\Mega\C#\GitBranches\CS-Learning\DC_HW-2\bin\Debug\netcoreapp3.0\DC_HW-2.runtimeconfig.json
+D:\Mega\C#\GitBranches\CS-Learning\DC_HW-2\bin\Debug\netcoreapp3.0\DC_HW-2.runtimeconfig.dev.json
+D:\Mega\C#\GitBranches\CS-Learning\DC_HW-2\bin\Debug\netcoreapp3.0\DC_HW-2.dll
+D:\Mega\C#\GitBranches\CS-Learning\DC_HW-2\bin\Debug\netcoreapp3.0\DC_HW-2.pdb
+D:\Mega\C#\GitBranches\CS-Learning\DC_HW-2\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+D:\Mega\C#\GitBranches\CS-Learning\DC_HW-2\obj\Debug\netcoreapp3.0\DC_HW-2.csprojAssemblyReference.cache
+D:\Mega\C#\GitBranches\CS-Learning\DC_HW-2\obj\Debug\netcoreapp3.0\DC_HW-2.AssemblyInfoInputs.cache
+D:\Mega\C#\GitBranches\CS-Learning\DC_HW-2\obj\Debug\netcoreapp3.0\DC_HW-2.AssemblyInfo.cs
+D:\Mega\C#\GitBranches\CS-Learning\DC_HW-2\obj\Debug\netcoreapp3.0\DC_HW-2.csproj.CoreCompileInputs.cache
+D:\Mega\C#\GitBranches\CS-Learning\DC_HW-2\obj\Debug\netcoreapp3.0\DC_HW-2.csproj.CopyComplete
+D:\Mega\C#\GitBranches\CS-Learning\DC_HW-2\obj\Debug\netcoreapp3.0\DC_HW-2.dll
+D:\Mega\C#\GitBranches\CS-Learning\DC_HW-2\obj\Debug\netcoreapp3.0\DC_HW-2.pdb
+D:\Mega\C#\GitBranches\CS-Learning\DC_HW-2\obj\Debug\netcoreapp3.0\DC_HW-2.genruntimeconfig.cache

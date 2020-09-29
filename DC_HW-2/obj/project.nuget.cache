@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "u8v5m8D60RArytbixKNc39SAg/SccHiBv5814ptsoOVTlknUwAx/dVkKrI/MU4GIKEeSxgzArNwWsJH3Bmg35g==",
+  "success": true,
+  "projectFilePath": "D:\\Mega\\C#\\GitBranches\\CS-Learning\\DC_HW-2\\DC_HW-2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Harbor\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Harbor\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\Harbor\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\Harbor\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\Harbor\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
