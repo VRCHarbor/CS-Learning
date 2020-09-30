@@ -8,5 +8,6 @@ namespace DC_HW_2
     {
         public string Props { get; }
         public string Info { get; }
+        public int bruh { get; }
     }
 }

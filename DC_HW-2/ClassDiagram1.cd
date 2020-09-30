@@ -3,7 +3,7 @@
   <Class Name="DC_HW_2.Program" Collapsed="true">
     <Position X="6.25" Y="0.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAIAAAAAAAAAAAAAAAAAAARAABAAAAAAAAABAIAAAA=</HashCode>
+      <HashCode>AAAIAgAAAAAAAAAAAAAAAAARAABAAAAAAAAABAIAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -15,9 +15,9 @@
     </TypeIdentifier>
   </Class>
   <Class Name="DC_HW_2.ProdusedClass">
-    <Position X="4.5" Y="4.25" Width="1.5" />
+    <Position X="4.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAEAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAgAAAAEAAAAA=</HashCode>
       <FileName>ProdusedClass.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.1" />
@@ -31,14 +31,14 @@
     <Lollipop Position="0.2" />
   </Class>
   <Interface Name="DC_HW_2.IFabric">
-    <Position X="9.25" Y="1.25" Width="1.5" />
+    <Position X="9.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IFabric.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="DC_HW_2.IProdusedClass">
-    <Position X="4.5" Y="2.25" Width="1.5" />
+    <Position X="4.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAEAAAAA=</HashCode>
       <FileName>IProdusedClass.cs</FileName>

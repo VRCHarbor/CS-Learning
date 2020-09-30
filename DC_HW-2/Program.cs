@@ -74,6 +74,18 @@ namespace DC_HW_2
             {
                 listOfObjects.Add(fabric.Produse());
             }
+
+            int minus, zero, plus;
+            minus = listOfObjects.Count(i => i.bruh < 0);
+            plus = listOfObjects.Count(i => i.bruh > 0);
+            zero = listOfObjects.Count(i => i.bruh == 0);
+
+            Console.WriteLine();
+            Console.WriteLine($"Плотность распределения из {listOfObjects.Count} " +
+                $"объектов:\n\tПоложительные - {((double)plus / listOfObjects.Count) * 100}" +
+                $"\n\tОтрицательные - {((double)minus / listOfObjects.Count) * 100}" +
+                $"\n\tНули - {((double)zero / listOfObjects.Count) * 100}");
+
         }
 
         /// <summary>
