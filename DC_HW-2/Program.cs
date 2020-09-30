@@ -2,15 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Drawing;
-
-
+using System.Collections.Immutable;
 
 namespace DC_HW_2
 {
     class Program
     {
+        #region fields
+
+        #endregion
         #region some class examples
-        
+
         #endregion
 
         /// <summary>
@@ -50,7 +52,29 @@ namespace DC_HW_2
             return returnValue;
         }
 
-        
+        static void FabricTest()
+        {
+            IFabric fabric = new ProdusedClassFabric();
+            List<IProdusedClass> listOfObjects = new List<IProdusedClass>();
+            Console.WriteLine("Введите число создаваемых объектов");
+            Console.Write(": ");
+
+            string cashe = Console.ReadLine();
+            int count;
+
+            while (!Int32.TryParse(cashe, out count))
+            {
+                Console.WriteLine($"Ввели не то, результат - {false}");
+                Console.WriteLine("Повторите ввод");
+                Console.Write(": ");
+                cashe = Console.ReadLine();
+            }
+            Console.WriteLine("Successfull");
+            for (int i = 0; i < count; ++i)
+            {
+                listOfObjects.Add(fabric.Produse());
+            }
+        }
 
         /// <summary>
         /// By Harbor
@@ -203,8 +227,12 @@ namespace DC_HW_2
                         {
                             Console.WriteLine(PC_Data()); break;
                         }
+                    case 'f':
+                        {
+                            FabricTest(); break;
+                        }
                     case (char)27: { return; }
-                    default: { Console.WriteLine("Введите i j k для взаимодействия, esc - для выхода"); } break;
+                    default: { Console.WriteLine("Введите i j k f для взаимодействия, esc - для выхода"); } break;
                 }
 
                 
